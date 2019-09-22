@@ -1,5 +1,4 @@
-package com.cloud.netflix.eureka.config.configuration;
-
+package com.cloud.order.config.configuration;
 import com.alibaba.fastjson.support.config.FastJsonConfig;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
 import org.springframework.boot.autoconfigure.http.HttpMessageConverters;

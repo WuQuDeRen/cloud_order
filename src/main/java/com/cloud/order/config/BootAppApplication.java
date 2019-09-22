@@ -1,6 +1,6 @@
-package com.cloud.netflix.eureka.config;
+package com.cloud.order.config;
 
-import com.cloud.netflix.eureka.config.configuration.MyConfig;
+import com.cloud.order.config.configuration.MyConfig;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -22,7 +22,7 @@ import org.springframework.context.annotation.PropertySource;
  */
 @SpringBootApplication
 // 指定Bean扫描路径
-@ComponentScan(basePackages = {"com.cloud.netflix.eureka.app", "com.cloud.netflix.eureka.config.configuration"})
+@ComponentScan(basePackages = {"com.cloud.order.app", "com.cloud.order.config.configuration"})
 //指定Mapper扫描路径
 @MapperScan(basePackages = {"com.fj.boot.app.**.dao"})
 // 属性配置类

@@ -1,5 +1,4 @@
-package com.cloud.netflix.eureka.config.configuration;
-
+package com.cloud.order.config.configuration;
 import lombok.Data;
 
 import javax.annotation.PostConstruct;
